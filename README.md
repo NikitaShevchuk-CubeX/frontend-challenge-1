@@ -1,29 +1,29 @@
-### Setup
+# Setup
 
-# Frontend
-
-```
-npm install
-npm run dev
-```
-
-# Backend
+### Frontend
 
 ```
 npm install
 npm run dev
+```
+
+### Backend
+
+```
+npm install
+npm run dev
 
 ```
 
-### Application flow
+# Application flow
 
-# Frontend
+### Frontend
 
 Routes:
 
-/ - home page
-/upload - a page to upload your file
-/uploaded-files = a page to see all uploaded files
+/ - home page \n
+/upload - a page to upload your file \n
+/uploaded-files = a page to see all uploaded files \n
 
 State:
 
@@ -31,19 +31,19 @@ UploadedFilesData state contains information about uploaded files along with the
 
 Components:
 
-Layout - main application layout
-upload/Page - the main page for uploads functionality
-uploade/UploadResults - shows the result of file upload (success or error)
-uploade/UploadedFilePreview - displays a preview of the uploaded file in a convenient table
-uploaded-files/Page - displays a list of previously uploaded files
+Layout - main application layout\n
+upload/Page - the main page for uploads functionality\n
+uploade/UploadResults - shows the result of file upload (success or error)\n
+uploade/UploadedFilePreview - displays a preview of the uploaded file in a convenient table\n
+uploaded-files/Page - displays a list of previously uploaded files\n
 
 Interaction with API:
 
 The main service for API interaction is UploadsService since it's the only app's functionality
 
-# Backend
+### Backend
 
 Endpoints:
 
-/mrf/upload - accepts, parses, validates, and saves an uploaded file
-/mrf/list - returns a list of previously uploaded files
+/mrf/upload - accepts, parses, validates, and saves an uploaded file \n
+/mrf/list - returns a list of previously uploaded files\n
